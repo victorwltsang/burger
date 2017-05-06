@@ -12,14 +12,10 @@ if (process.env.JAWSDB_URL) {
     password: "",
     database: "burgers_db"
   });
-}
-
-
+};
 
 // Test Connection
 connection.connect();
 
-
 // export connection for ORM
 module.exports = connection;
-nnection;
